@@ -91,4 +91,4 @@ In order to make your node a primary authorizer, you need:
 To get test LYR, please write to [Telegram group](https://t.me/joinchat/F25OCR1H3Fdq_IUNJfclSQ) or email to info@lyra.live.
 * Make sure someone (another account) voted for your node’s account using votefor command, 
 and the vote is greater than the minimum vote for existing primary authorizer (this is not an issue yet in testnet as there are still available slots for primary authorizers).
-There is `votefor` command in CLI wallet.
+There is `votefor` command in [CLI wallet](https://github.com/LYRA-Block-Lattice/LYRA-Docs/blob/master/How%20to%20run%20Lyra%20CLI%20Wallet%20on%20testnet.md).
