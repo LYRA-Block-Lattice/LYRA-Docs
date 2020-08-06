@@ -28,7 +28,7 @@ Follow the initial client prompts and press Enter key twice when prompted with t
 `Local account data not found. Would you like to create a new account? (Y/n):`
 
 ## To request testnet LYR tokens: 
-Send email to info@lyra.live with the subject *“Testnet LYR token request”* and specify your account ID (wallet address). 
+To get test LYR, please write to [Telegram group](https://t.me/joinchat/F25OCR1H3Fdq_IUNJfclSQ) or email to info@lyra.live with the subject *“Testnet LYR token request”* and specify your account ID (wallet address). 
 
 ## To get your account ID: 
 Enter `id` command
