@@ -41,7 +41,7 @@ from https://dotnet.microsoft.com/download
 * Exit after making a note of newly generated wallet address (account id) and private key.
 
 ## Prepare to run a node
-* Modify `C:\Users\UserName\.Lyra\config.testnet.json` file - change mongodb account/password, 
+* Modify `C:\Users\UserName\lyra\noded\config.testnet.json` file - change mongodb account/password, 
 change the wallet/name (was poswallet) to the name you created in the previous step. It should look something like this:
 
 `"DBConnect": "mongodb://lexuser:alongpassword@127.0.0.1/lyra",
