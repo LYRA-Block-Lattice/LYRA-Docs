@@ -27,12 +27,7 @@ but in the near future wallet apps for Android, iOS, and Windows will be availab
 ## Testing Steps
 In order to test LoyalShopper rewards solution, perform the following steps:
 
-1. Register with Lyra bounty campaign (optional).
-
-2. Validate your email address by sending email to `info@lyra.live` with the subject `LoyalShopper Testing - Email Validation Request`. 
-**Please do not start the testing before you receive confirmation.** Only validated email addresses can receive reward emails from LoyalShopper app.
-
-3. Make a purchase in LoyalShopper Demo Store.
+1. Make a purchase in LoyalShopper Demo Store.
 * Go to LoyalShopper Demo Store: https://loyalshopper-dev-store-local.myshopify.com/
 * Click on one of the items (for example, “Dark Roast”), and click `ADD TO CART` button
 * Click the `View Cart` button and then `Checkout` button.
@@ -52,27 +47,27 @@ Security Code: `123`
 
 * Click the `Pay now` button.
 
-4. Check your email - you should receive two emails: 
+2. Check your email - you should receive two emails: 
 * First email from `LoyalShopper Demo Store <info@lyra.live> via shopify.com` confirming the order, and 
 * Second email from `shopify@lyra.live` with the subject `You've earned X reward tokens!`.
 
 Open the second email and follow the instructions (see details below).
 
-5. Download and install *Lyra CLI wallet* - follow instructions in this document: https://github.com/LYRA-Block-Lattice/LYRA-Docs/blob/master/How%20to%20run%20Lyra%20CLI%20Wallet%20on%20testnet.md
+3. Download and install *Lyra CLI wallet* - follow instructions in this document: https://github.com/LYRA-Block-Lattice/LYRA-Docs/blob/master/How%20to%20run%20Lyra%20CLI%20Wallet%20on%20testnet.md
 
-6. After you created a new account, enter `import` command. When prompted to enter the private key, copy/paste the private key from the email, and press `Enter`. 
+4. After you created a new account, enter `import` command. When prompted to enter the private key, copy/paste the private key from the email, and press `Enter`. 
 Enter `sync` command to receive the rewards. You should see the balance of reward tokens on your account.
 	 
 **Note:** you need to import the private key from the email only once. All further rewards will be automatically sent to your account.  
 
-7. To use your rewards, enter `redeem` command, then enter the name of the reward token: `loyalshopper-dev-store-local/Rewards11`, 
+5. To use your rewards, enter `redeem` command, then enter the name of the reward token: `loyalshopper-dev-store-local/Rewards11`, 
 and then enter a discount amount (for example, 1).
 
 Enter `sync` command - you should see something like this:
 
 `Shopify Discount: $1.00 Redemption Code: E7NH-HQTC-FUJG-NMSR`
 
-8. Go back to the Shopify store and run a new transaction (purchase another item). 
+6. Go back to the Shopify store and run a new transaction (purchase another item). 
 Go through the checkout process as described above. On the payment screen (where you prompted to enter credit card information), 
 enter the redemption code into the `Discount Code` field and click `Apply` button. You should see a $1 discount applied to your total. 
 Finish the transaction by clicking the `Pay now` button. You successfully used your LoyalShopper rewards!
