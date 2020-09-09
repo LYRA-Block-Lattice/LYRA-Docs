@@ -31,7 +31,7 @@ In order to test LoyalShopper rewards solution, perform the following steps:
 * Go to LoyalShopper Demo Store: https://loyalshopper-dev-store-local.myshopify.com/
 * Click on one of the items (for example, “Dark Roast”), and click `ADD TO CART` button
 * Click the `View Cart` button and then `Checkout` button.
-* Enter your email address (the one you have validated previously) and shipping address (any address will work). 
+* Enter your email address and shipping address (any address will work). 
 
 **Note** that the shipping address can be fake because this is not a real purchase, 
 but the email address must be your real email address because the reward points will be sent to you using this email address.
