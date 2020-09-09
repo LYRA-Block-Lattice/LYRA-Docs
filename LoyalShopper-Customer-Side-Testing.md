@@ -51,6 +51,8 @@ Security Code: `123`
 * First email from `LoyalShopper Demo Store <info@lyra.live> via shopify.com` confirming the order, and 
 * Second email from `shopify@lyra.live` with the subject `You've earned X reward tokens!`.
 
+![reward email sample](https://i.imgur.com/WTVO2NM.png)
+
 Open the second email and follow the instructions (see details below).
 
 3. Download and install *Lyra CLI wallet* - follow instructions in this document: https://github.com/LYRA-Block-Lattice/LYRA-Docs/blob/master/How%20to%20run%20Lyra%20CLI%20Wallet%20on%20testnet.md
