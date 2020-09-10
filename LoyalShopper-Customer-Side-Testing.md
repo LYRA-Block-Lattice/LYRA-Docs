@@ -66,5 +66,9 @@ Enter `sync` command - you should see something like this:
 
 6. Go back to the Shopify store and run a new transaction (purchase another item). 
 Go through the checkout process as described above. On the payment screen (where you prompted to enter credit card information), 
-enter the redemption code into the `Discount Code` field and click `Apply` button. You should see a $1 discount applied to your total. 
+enter the redemption code into the `Discount Code` field and click `Apply` button. 
+
+![checkout](https://i.imgur.com/FJyiiXa.png)
+
+You should see a $1 discount applied to your total. 
 Finish the transaction by clicking the `Pay now` button. You successfully used your LoyalShopper rewards!
