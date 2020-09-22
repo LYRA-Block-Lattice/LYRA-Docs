@@ -42,6 +42,6 @@ I guess another term that became popular in conjunction with DeFi.
 Since creation of such a decentralized liquidity pool is not a trivial task, 
 we postponed its implementation to [phase 2 of Lyra project](https://docs.lyra.live/lyra-network-1/practical-applications). 
 However, we have defined a path forward already on design and implementation - 
-it is going to be done as a [**Multisig Deposit Vault for Decentralized Digital Asset Tokenization**](https://github.com/LYRA-Block-Lattice/LYRA-Docs/blob/master/Multisig%20Deposit%20Vault%20for%20Decentralized%20Digital%20Asset%20Tokenization.md). 
+it is going to be done as a [Multisig Deposit Vault for Decentralized Digital Asset Tokenization](https://github.com/LYRA-Block-Lattice/LYRA-Docs/blob/master/Multisig%20Deposit%20Vault%20for%20Decentralized%20Digital%20Asset%20Tokenization.md). 
 Once implemented, the Multisig Deposit Vault will unlock a Pandora box of additional DeFi use cases defined in the original white paper. 
 We just need more time and support from people who want to participate in the DeFi revolution.            
