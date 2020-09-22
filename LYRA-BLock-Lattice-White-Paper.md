@@ -13,7 +13,7 @@
 ## Primary Objectives of the LYRA Block Lattice
 
 * Create a payment platform that provides  “out of the box” basic features of modern payment processing networks such as privacy, real time authorizations, buyer-friendly fee structure, multi-currency support, special merchant transaction flows, and custom merchant tokens
-Eliminate dependency on Proof of Work
+* Eliminate dependency on Proof of Work
 * Provide virtually unlimited scalability to enable TPS (transactions per second) rates competitive with existing “traditional” payment processing networks
 * Eliminate a prolonged locking of funds in user wallets (both payer and payee) caused by waiting for multiple “block confirmations”
 * Reduce the network latency that affects transaction authorization times to the levels acceptable by the payment industry
