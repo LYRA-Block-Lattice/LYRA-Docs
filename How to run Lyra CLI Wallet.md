@@ -1,4 +1,4 @@
-# How to run Lyra CLI Wallet on testnet
+# How to run Lyra CLI Wallet
 
 **Note 1:** You don’t need to run Lyra node in order to use the Lyra network. Simply install CLI wallet by following instructions below and start exploring the network by making transfers or even creating your own tokens! Mobile wallets are coming soon as well.
 
@@ -16,10 +16,12 @@ https://dotnet.microsoft.com/download/dotnet-core/3.1
 * Open a command prompt (Start -> cmd) and change current directory:
 `cd C:\Users\”UserName”\lyra\cli`
 
-* Type this command to launch the wallet:
+* Type this command to launch the wallet on testnet:
 `dotnet lyra.dll --networkid testnet -p webapi` 
+* Type this command to launch the wallet on mainnet:
+`dotnet lyra.dll --networkid mainnet -p webapi` 
 
-Once you specified the account name (or created a new one), the client will automatically find the testnet LYRA node and connect.
+Once you specified the account name (or created a new one), the client will automatically find the LYRA node and connect.
 
 ## To open a new account (aka “wallet”) with default name 'My Account'
 Follow the initial client prompts and press Enter key twice when prompted with the following questions: 
