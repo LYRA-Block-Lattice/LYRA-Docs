@@ -41,14 +41,14 @@ from https://dotnet.microsoft.com/download
 * Exit after making a note of newly generated wallet address (account id) and private key.
 
 ## Prepare to run a node
-* Modify `C:\Users\UserName\lyra\noded\config.testnet.json` file - change mongodb account/password, 
-change the wallet/name (was poswallet) to the name you created in the previous step. It should look something like this:
+* If you set a diffrent mongodb account/ password, wallet name, or wallet password - modify `C:\Users\UserName\lyra\noded\config.testnet.json` config file and change mongodb account/password, change the wallet/name (initially 'poswallet') to the name you created in the previous step, and set wallet password. If no password set just leave password empty "". It should look something like this:
 
-`"DBConnect": "mongodb://lexuser:alongpassword@127.0.0.1/lyra",
-         			        },
-        		"Wallet": {
-          			"Name": "poswallet"
-       	 	}`
+`"DBConnect": "mongodb://lexuser:alongpassword@127.0.0.1/lyra",`
+         			        `},`
+        		`"Wallet": {`
+          			`"Name": "poswallet",`
+				`"Password": ""`
+       	 	`}`
 	
 * Open a command prompt and change directory: 
 
